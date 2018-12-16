@@ -24,6 +24,8 @@ A separate page is dedicated for my learnings from the Command-line Course.
 
 ## Other Coding-Related Courses in the University of Helsinki
 
+[See a poster for the coding courses](https://www.overleaf.com/read/ccczvqhydvqb), *(made with latex @ OverLeaf)*
+
 [Ohjelmoinnin perusteet](https://courses.helsinki.fi/fi/TKT10002/124961698), spring 2019
 
 [Ohjelmointia lingvisteille](https://courses.helsinki.fi/fi/KIK-LG208/125773313), spring 2019

@@ -62,6 +62,7 @@ $ ssh <server>                          #creating a connection to a remote serve
 ```
 > **My learning experience:** This week was still mostly familiar to me. The most challenging was to learn how to use the permissions since the syntax is not them most intuitive.
 > This week's XKCD comic explained how SUDO works.
+> 
 > ![XKCD-Comic about SUDO](https://imgs.xkcd.com/comics/sandwich.png)
 
 
