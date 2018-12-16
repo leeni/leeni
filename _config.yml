@@ -1,6 +1,8 @@
-title: Mouse Mousekewitz
-logo: /assets/img/me.jpg
-description: This is Mouse Mousekewitz' homepage.
+title: Coding Courses @ University of Helsinki
+logo: /assets/img/Logo.png
+description: This is a site for collecting coding courses in the University of Helsinki.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+navbar-img: "favicon.png"
+future: true

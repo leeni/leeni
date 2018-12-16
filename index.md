@@ -4,24 +4,29 @@ layout: default
 
 ## Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This webpage is made for a course assignment and it is an example of how to do a github webpage.
+It is for collecting the various coding / programming and programming-related courses offered by the University of Helsinki. The list is not exhaustive.
 
-## Find me on
+A separate page is dedicated for my learnings from the command-line course organised by the University of Helsinki.
+
+## Command-line Course Links
 
 [LinkedIn](https://fi.linkedin.com/mouse-mousekewitz), [GitHub](https://github.com/mokewitz)
 
 ## Contact
 
-My email address is of the form first_name.last_name@helsinki.fi. 
+My email address is of the form first_name.last_name@helsinki.fi.
 
-## Courses I've Taken
+## Programming Courses in the University of Helsinki
 
-[Enjoying Cheese I](https://courses.helsinki.fi/enjoying-cheese-I), fall 2018
+[Full-Stack Development](https://courses.helsinki.fi/enjoying-cheese-I), fall 2018
 
 [Feline Avoidance](https://courses.helsinki.fi/feline-avoidance), fall 2018
 
-## Projects
+## My Programming Projects as Examples
 
-## Misc. 
+[Command-Line Course @ GitHub](https://github.com/leeni/cmdline-course)
 
-[Gotta Love Cheese](https://en.wikipedia.org/wiki/Cheese) 
+## Misc.
+
+[Gotta Love Cheese](https://en.wikipedia.org/wiki/Cheese)

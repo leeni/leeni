@@ -178,7 +178,7 @@ section {
 }
 
 small {
-  font-size:11px;
+  font-size:8px;
 }
 
 hr {
@@ -189,10 +189,10 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:200px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:-2px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -211,7 +211,7 @@ a.sitelinks {
     width:auto;
     margin:0;
   }
- 		 
+
   header, section, footer {
     float:none;
     position:static;
