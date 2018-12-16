@@ -53,9 +53,6 @@ This was a course project for learning about text processing using various scirp
 
 [Git Cheat Sheet](https://www.git-tower.com/blog/git-cheat-sheet)
 
-### Command-Line Course Videos Playlist @ YouTube
-
-[![Find The First Video Here](http://img.youtube.com/vi/j9Oi10ggoxY/0.jpg)](http://www.youtube.com/watch?v=j9Oi10ggoxY&list=PLtpBLbHSJbOUh9JZzGWekDn-9BecuqPfa "Command-Line Course Videos")
 
 ## Contact
 
