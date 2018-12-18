@@ -11,6 +11,7 @@ The Command-Line Course covers introduction to basic unix file and process conce
 As it is aimed for linguists, the Command-Line Course teaches the basics of text processing and how to write programs which help to analyse text, using gutenberg project books as example material.
 
 The course also includes basics of version control using Git as the example version control system.
+In the end of the course the participants create a webpage about their learnings using GitHub Pages.
 
 ### Command-Line Course Videos Playlist @ YouTube
 
@@ -62,7 +63,7 @@ $ ssh <server>                          #creating a connection to a remote serve
 ```
 > **My learning experience:** This week was still mostly familiar to me. The most challenging was to learn how to use the permissions since the syntax is not them most intuitive.
 > This week's XKCD comic explained how SUDO works.
-> 
+>
 > ![XKCD-Comic about SUDO](https://imgs.xkcd.com/comics/sandwich.png)
 
 
@@ -103,5 +104,23 @@ $ ls #list folder content
 $ cd .. #go one folder up
 $ pwd #tell me where I am
 $ ls #list folder content
+```
+> **My learning experience:** Excluding using nano, the content in the week 1 was mostly familiar to me, as I had previously used command line at work and at some other courses.
+
+## Week 7: Project
+
+#### Overview
+
+The main content for this week was to learn how to
+*   use GitHub pages
+*   use Git in a "real" project
+*   use jekyll
+
+#### Some command examples using *md* and *command-line*
+```
+$ ##                  #H2
+$ *                   #
+$ [link_text](link)   #adding a link
+$                     #building with jekyll
 ```
 > **My learning experience:** Excluding using nano, the content in the week 1 was mostly familiar to me, as I had previously used command line at work and at some other courses.
