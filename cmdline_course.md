@@ -20,10 +20,12 @@ In the end of the course the participants create a webpage about their learnings
 #### My favourite course videos
 
 | Video name    | Course Week   |
-| :-------------|:------------- |
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+| :-------------|-------------: |
+| [Technical Video 2: Command-Line Basics](https://www.youtube.com/watch?v=YRU4hixkQOg)  |   1 |
+| [Technical Video 7: File System](https://www.youtube.com/watch?v=rawIDSa2DZs)  |   2 |
+| [Technical Video 14: Regular expressions, grep, and sed](https://www.youtube.com/watch?v=tECotbQzkjQ)  |   3 |
+| [Technical Video 18: Creating a sample .bashrc file](https://www.youtube.com/watch?v=zoD6ld3I_AM)  |   4 |
+| [Technical video 24: Make 1](https://www.youtube.com/watch?v=ZYYd-frRfvw)  |   5 |
 
 
 ## Week 1: Introduction to Command-Line Environments
@@ -72,47 +74,68 @@ $ ssh <server>                          #creating a connection to a remote serve
 
 #### Overview
 
-The main content for this week was to learn how to
-*   TODO
+The main content for this week was to learn about
+*   string manipulation
+*   handling large amounts of text with scripts
+*   building scripts and redirecting streams
+*   regular experssions
+
+#### Some command examples using *bash*
 
 ```
-$ cd .. #go one folder up
-$ pwd #tell me where I am
-$ ls #list folder content
+$ |                       #redirecting output from one command to another
+$ grep -E "regex" <file>  #running regular expressions on a file
+$ cat <file>              #read a file
 ```
-> **My learning experience:** TODO
-
+> **My learning experience:** This was the most difficult week. Regular expressions are very complex, and there are many different flavors of it, so it was not easy to even search for examples. Manipulating the text files was very challenging, I would have wanted to first do a couple of more simple examples before doing the more complex exercises in the quiz.
 
 
 ## Week 4: Scripting and UNIX Configuration Files
 
 #### Overview
 
-The main content for this week was to learn how to
-*   TODO
+The main content for this week was to learn about
+*   UNIX environment variables
+*   creating .bashrc file
+*   creating scripts
+
+#### Some command examples using *bash*
 
 ```
-$ cd .. #go one folder up
-$ pwd #tell me where I am
-$ ls #list folder content
+$ env       #list all environment variables
+$ echo $?   #print the output of the last run command
+
+for var in <list>  #for-loop in bash script
+  do
+    <commands>
+  done
 ```
-> **My learning experience:** TODO
+> **My learning experience:** It was very interesting to learn how to check and manipulate the environment variables and create my own .bashrc file. However, I think the default display settings for bash were better than any customisation so I actually removed those. I have done programming before so loops were familiar to me, however not the bash script syntax.
 
 
 ## Week 5: Installing and Running Programs
 
 #### Overview
 
-The main content for this week was to learn how to
-*   TODO
+The main content for this week was to learn about
+*   installing programs with command-line
+*   how PATH variable works when installing programs
+*   how to install specifically python and C programs
+*   using make to build programs
 
+#### Some command examples using *bash* and *make*
 
 ```
-$ cd .. #go one folder up
-$ pwd #tell me where I am
-$ ls #list folder content
+$ pip3 install <package/program> #installing a package/program for python3 (use when you have both python2 and python3)
+
+target: file1 file2 ...          #makefile syntax for how to generate files with make
+      some_command
+
+clean:                           #makefile syntax for specifying the clean command
+      some_command
+$
 ```
-> **My learning experience:** TODO
+> **My learning experience:** This week was very educational, I learned a lot about especially installing python packages and the full meaning of the PATH variable. I had some issues since I have multiple python versions on my mac so I had to be careful which python to use when. I had never used make before, it reminded me of maven and some other dependency and build management software.
 
 
 ## Week 6: Version Control
@@ -127,12 +150,14 @@ The main content for this week were
 *   creating new branches and changing a branch
 *   ... additionally, installing and running Java in commandline
 
+#### Some command examples using *command-line*
+
 ```
 $ git commit -m "message"   #commit staged changes with a commit message
 $ git push                  #push changes to make them visible for others
 $ git branch                #see list of all branches and which branch is now used
 ```
-> **My learning experience:** I had a fair amount of experience using a version control system, though mostly I have used mercurial, not git. I have used git a little bit, but I was not completely comfortable with it before. It was very intersting to learn how to revert commits and change between commits and branches.
+> **My learning experience:** I had a fair amount of experience using a version control system, though mostly I have used mercurial, not git. I have used git a little bit, but I was not completely comfortable with it before. It was very intersting to learn how to revert commits and change between commits and branches and merging different branches together.
 
 ## Week 7: Project
 
