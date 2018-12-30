@@ -15,14 +15,15 @@ In the end of the course the participants create a webpage about their learnings
 
 ### Command-Line Course Videos Playlist @ YouTube
 
-[![Find The First Video Here](http://img.youtube.com/vi/j9Oi10ggoxY/0.jpg)](http://www.youtube.com/watch?v=j9Oi10ggoxY&list=PLtpBLbHSJbOUh9JZzGWekDn-9BecuqPfa "Command-Line Course Videos")
+[![Command-line Course Videos](http://img.youtube.com/vi/j9Oi10ggoxY/0.jpg)](http://www.youtube.com/watch?v=j9Oi10ggoxY&list=PLtpBLbHSJbOUh9JZzGWekDn-9BecuqPfa "Command-Line Course Videos")
 
+#### My favourite course videos
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Video name    | Course Week   |
+| :-------------|:------------- |
+| col 3 is      | right-aligned |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
 
 
 ## Week 1: Introduction to Command-Line Environments
@@ -41,7 +42,7 @@ $ mkdir <folder_name> #create a folder
 $ wget <web location> #download content from the web
 $ nano <file_name>    #opening a file with nano file editor
 ```
-> **My learning experience:** Excluding using nano, the content in the week 1 was mostly familiar to me, as I had previously used command line at work and at some other courses.
+> **My learning experience:** Excluding using nano, the content in the week 1 was mostly familiar to me, as I had previously used command line at work and at some other courses. However, it was great to learn how to use nano as text editor, I had previously only tried to use vim, which is more difficult to use. Additionally, I had never really used wget to download files before.
 
 
 ## Week 2: Navigating a UNIX System
@@ -61,7 +62,7 @@ $ chmod <permissions> <file or folder>  #set permissions for a file or folder
 $ sudo <command>                        #execute command as super user
 $ ssh <server>                          #creating a connection to a remote server
 ```
-> **My learning experience:** This week was still mostly familiar to me. The most challenging was to learn how to use the permissions since the syntax is not them most intuitive.
+> **My learning experience:** This week was still mostly familiar to me. The most challenging was to learn how to use the permissions since the syntax is not them most intuitive. It was also a good refresher to watch all the videos about the file system in UNIX and compare it to Windows.
 > This week's XKCD comic explained how SUDO works.
 >
 > ![XKCD-Comic about SUDO](https://imgs.xkcd.com/comics/sandwich.png)
@@ -69,58 +70,86 @@ $ ssh <server>                          #creating a connection to a remote serve
 
 ## Week 3: Corpus Processing
 
+#### Overview
+
+The main content for this week was to learn how to
+*   TODO
+
 ```
 $ cd .. #go one folder up
 $ pwd #tell me where I am
 $ ls #list folder content
 ```
-> **My learning experience:** Excluding using nano, the content in the week 1 was mostly familiar to me, as I had previously used command line at work and at some other courses.
+> **My learning experience:** TODO
 
 
 
 ## Week 4: Scripting and UNIX Configuration Files
 
+#### Overview
+
+The main content for this week was to learn how to
+*   TODO
+
 ```
 $ cd .. #go one folder up
 $ pwd #tell me where I am
 $ ls #list folder content
 ```
-> **My learning experience:** Excluding using nano, the content in the week 1 was mostly familiar to me, as I had previously used command line at work and at some other courses.
+> **My learning experience:** TODO
 
 
 ## Week 5: Installing and Running Programs
 
+#### Overview
+
+The main content for this week was to learn how to
+*   TODO
+
+
 ```
 $ cd .. #go one folder up
 $ pwd #tell me where I am
 $ ls #list folder content
 ```
-> **My learning experience:** Excluding using nano, the content in the week 1 was mostly familiar to me, as I had previously used command line at work and at some other courses.
+> **My learning experience:** TODO
 
 
 ## Week 6: Version Control
 
+#### Overview
+
+The main content for this week were
+*   how version control works in principle
+*   creating a GitHub repository
+*   adding new commits and pushing them with git
+*   reverting commits
+*   creating new branches and changing a branch
+*   ... additionally, installing and running Java in commandline
+
 ```
-$ cd .. #go one folder up
-$ pwd #tell me where I am
-$ ls #list folder content
+$ git commit -m "message"   #commit staged changes with a commit message
+$ git push                  #push changes to make them visible for others
+$ git branch                #see list of all branches and which branch is now used
 ```
-> **My learning experience:** Excluding using nano, the content in the week 1 was mostly familiar to me, as I had previously used command line at work and at some other courses.
+> **My learning experience:** I had a fair amount of experience using a version control system, though mostly I have used mercurial, not git. I have used git a little bit, but I was not completely comfortable with it before. It was very intersting to learn how to revert commits and change between commits and branches.
 
 ## Week 7: Project
 
 #### Overview
 
-The main content for this week was to learn how to
+The main content for this week were to learn how to
 *   use GitHub pages
-*   use Git in a "real" project
+*   use Git in a "real" project with feature branches
 *   use jekyll
+*   use markdown (create and edit .md files)
 
-#### Some command examples using *md* and *command-line*
+#### Some command examples using *md* and *bash*
 ```
-$ ##                  #H2
-$ *                   #
-$ [link_text](link)   #adding a link
-$                     #building with jekyll
+$ ##                        # level 2 header in md
+$ *                         # list item in md
+$ [link_text](link)         #adding a link in md
+$ bundle exec jekyll serve  #building with jekyll in bash
 ```
-> **My learning experience:** Excluding using nano, the content in the week 1 was mostly familiar to me, as I had previously used command line at work and at some other courses.
+> **My learning experience:** I had previous experience about creating web pages, but never with jekyll or github pages. I also had never used markdown, even though it is very similar to the syntax used in e.g. atlassian wiki pages or JIRA. It took me a while to understand the structure of the files and what needs to be put where.
+> Additionally, installing and using jekyll (and ruby stuff in general) was very difficult, since I had multiple pythons, apparently multiple ruby installations and bundle just was never found correctly, so I had to hack the alias for the correct bundle location to finally make jekyll work so that I could locally build the website.
